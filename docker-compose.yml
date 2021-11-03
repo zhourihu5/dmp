@@ -1,0 +1,18 @@
+version: "2"
+
+services:
+  chd6-impala-kudu:
+    image: fedormalyshkin/cdh6-impala-kudu
+    hostname: node1
+    ports:
+      - 7050:7050
+      - 7051:7051
+      - 8050:8050
+      - 8051:8051
+      - 21000:21000 
+      - 21050:21050
+      - 25000:25000 
+      - 25010:25010 
+      - 25020:25020 
+      - 50070:50070
+      - 50075:50075
