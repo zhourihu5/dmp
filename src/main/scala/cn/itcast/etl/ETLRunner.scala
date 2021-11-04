@@ -45,6 +45,7 @@ object ETLRunner {
       'adxrate, 'title, 'keywords, 'tagid, 'callbackdate, 'channelid, 'mediatype, 'email,
       'tel, 'age, 'sex
     )
+    //展开成可变参数:_*
     val result = dsWithLocation.select(selectRows:_*)
 
     // 4. 数据落地

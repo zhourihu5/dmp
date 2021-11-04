@@ -127,6 +127,6 @@ object KuduHelper {
   }
 
   def formattedDate(): String = {
-    FastDateFormat.getInstance("yyyMMdd").format(new Date())
+    FastDateFormat.getInstance("yyyyMMdd").format(new Date())
   }
 }
