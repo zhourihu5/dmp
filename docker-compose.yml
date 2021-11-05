@@ -3,7 +3,8 @@ version: "2"
 services:
   chd6-impala-kudu:
     image: fedormalyshkin/cdh6-impala-kudu
-    hostname: node1
+#    hostname: node1
+    hostname: 192.168.100.83
     ports:
       - 7050:7050
       - 7051:7051
